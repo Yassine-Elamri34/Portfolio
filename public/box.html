@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Box2home Delivery Dashboard | Case Study</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f8f9fb;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #fff;
+      padding: 20px 40px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 24px;
+      color: #222;
+    }
+
+    .back-btn {
+      text-decoration: none;
+      background: #6c63ff;
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .back-btn:hover {
+      background: #7e0bb0;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .section {
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 15px;
+      color: #222;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 12px;
+    }
+
+    .tech-stack {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .tech-stack span {
+      background: #e9e9ff;
+      color: #3b3b8f;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.02);
+    }
+
+    /* ---------- NEW: Download Button Style ---------- */
+    .download-btn {
+      display: inline-block;
+      background: #7e0bb0;
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+      margin-top: 10px;
+    }
+
+    .download-btn:hover {
+      background: #7e0bb0;
+    }
+
+    footer {
+      background: #fff;
+      padding: 20px;
+      text-align: center;
+      border-top: 1px solid #ddd;
+      margin-top: 50px;
+    }
+
+    footer p {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Box2home Delivery Dashboard</h1>
+    <a href="http://localhost:5173/picto/" class="back-btn">← Back to Portfolio</a>
+  </header>
+
+  <div class="container">
+    
+    <section class="section">
+      <h2>Overview</h2>
+      <p>
+        During my 6-month internship at <strong>Box2home</strong>, France’s leading delivery company, I developed a 
+        complete delivery tracking web application. The platform provides real-time analytics and key performance 
+        indicators (KPIs) to help logistics teams monitor parcel success rates and improve delivery efficiency.
+      </p>
+      <p>
+        This project allowed me to merge my background in <strong>Business Intelligence</strong> with 
+        <strong>Web Development</strong>, building a data-driven solution that simplifies operational decision-making.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Goals</h2>
+      <p>• Build a dashboard that displays live delivery metrics and performance trends.</p>
+      <p>• Enable administrators to create and manage clients dynamically.</p>
+      <p>• Visualize delivery statuses, success rates, and yearly parcel volume using charts.</p>
+    </section>
+
+    <section class="section">
+      <h2>Tech Stack</h2>
+      <div class="tech-stack">
+        <span>MongoDB</span>
+        <span>Express.js</span>
+        <span>React.js</span>
+        <span>Node.js</span>
+        <span>Chart.js</span>
+        <span>Bootstrap</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <img src="images/1.png" alt="Dashboard Interface">
+        <img src="images/2.png" alt="Client Form Empty">
+        <img src="images/3.png" alt="Client Form Filled">
+        <img src="images/4.png" alt="Global Parcel Status">
+        <img src="images/5.png" alt="Main KPI Charts">
+        <img src="images/6.png" alt="Volume of Parcels per Year">
+        <img src="images/7.png" alt="Failed Deliveries Stats">
+        <img src="images/8.png" alt="Client Dashboard Summary">
+        <img src="images/9.png" alt="Zone Configuration View">
+        <img src="images/10.png" alt="Delivery Analytics Visualization">
+        <img src="images/11.png" alt="Final KPI Overview">
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Conclusion</h2>
+      <p>
+        The Box2home Dashboard showcases my ability to design and develop full-stack applications that combine 
+        functionality with data visualization. It strengthened my technical expertise and demonstrated how 
+        web technologies can be used to deliver meaningful business insights.
+      </p>
+    </section>
+
+    <!-- ---------- NEW: Download Section ---------- -->
+    <section class="section">
+      <h2>Download Project Report</h2>
+      <p>You can view or download the full PFE project documentation below:</p>
+      <!-- Open in new tab -->
+      <a href="docs/Box2home_Project_Report.pdf" target="_blank" class="download-btn">📄 View PDF Report</a>
+      <!-- For direct download, use this instead -->
+      <!-- <a href="docs/Box2home_Project_Report.pdf" download class="download-btn">📄 Download PDF Report</a> -->
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2025 Yassine Elamri — All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
