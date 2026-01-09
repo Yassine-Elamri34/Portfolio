@@ -12,19 +12,25 @@ const WorkTogether = () => {
           I'm always open to discussing new projects and creative ideas. Let's
           connect and build something amazing together.
         </p>
-        <a
-          href="#contact"
-          className="btn btn-primary px-4 md:px-6.5 py-3 md:py-6 text-[12px] md:text-[16px]"
-        >
-          Let's work Together
-          <FontAwesomeIcon
-            icon={faArrowRight}
-            size="l"
-            style={{ color: "#FFFFFF" }}
-            className="ms-3"
-          />
-          {/* color */}
-        </a>
+       <a
+  href="#contact"
+  onClick={(e) => {
+    e.preventDefault();
+    document
+      .getElementById("contact")
+      ?.scrollIntoView({ behavior: "smooth" });
+  }}
+  className="btn btn-primary px-4 md:px-6.5 py-3 md:py-6 text-[12px] md:text-[16px]"
+>
+  Let's work Together
+  <FontAwesomeIcon
+    icon={faArrowRight}
+    size="l"
+    style={{ color: "#FFFFFF" }}
+    className="ms-3"
+  />
+</a>
+
       </div>
     </div>
   );

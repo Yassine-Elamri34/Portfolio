@@ -43,12 +43,14 @@ Passionate about technology and innovation, I aim to create impactful digital ex
           </p>
           <p className="text-center lg:text-start">
             <a
-              className="btn-primary btn btn-xs xxs:btn-lg text-white"
-              href="mailto:elamriyassin34@gmail.com"
+  href="mailto:elamriyassin34@gmail.com"
+  className="btn-primary btn btn-xs xxs:btn-lg text-white"
+  target="_self"
+  rel="noopener noreferrer"
+>
+  Say Hello!
+</a>
 
-            >
-              Say Hello!
-            </a>
           </p>
         </div>
         <div className="mx-auto lg:mx-0 relative">
