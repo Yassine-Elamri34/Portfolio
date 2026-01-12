@@ -3,7 +3,7 @@ import card1 from "../../assets/images/portfolio-images/card-1.png";
 import card50 from "../../assets/images/portfolio-images/card-50.png";
 import card3 from "../../assets/images/portfolio-images/card-3.png";
 import card49 from "../../assets/images/portfolio-images/card-49.png";
-import card13 from "../../assets/images/portfolio-images/card-13.png";
+import card60 from "../../assets/images/portfolio-images/card-60.png";
 import card51 from "../../assets/images/portfolio-images/card-51.png";
 
 const projectData = [
@@ -33,6 +33,15 @@ const projectData = [
     description:
       "I developed a flip memory card game to showcase my coding skills, mainly focusing on advanced CSS techniques and animations learned during my studies.",
     link: "https://yassine-elamri34.github.io/Final-Web-Design-Project/",
+  },
+   {
+    id: 3,
+    image: card60,
+    category: "Web Dev",
+    title: "Student Life Assistant",
+    description:
+      "I developed a Student Life Assistant that displays all the important words and concepts I need to remember for my field of study. This practical tool helped me retain key information more easily and improve my understanding through daily use.",
+    link: "https://yassine-elamri34.github.io/studentLifeAssistant-Project/",
   },
   
 ];
